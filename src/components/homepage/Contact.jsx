@@ -48,9 +48,9 @@ export default function Contact() {
           <h3 ref={heading} className="max-w-lg 2xl:max-w-3xl text-heading-3 2xl:text-7xl font-semibold leading-tight translate-y-10 opacity-0">
             Have an awesome idea? Let&apos;s bring it to life.
           </h3>
-          <p ref={body} className="mt-4 max-w-md 2xl:max-w-2xl text-body-2 2xl:text-4xl text-accent-100 translate-y-10 opacity-0">
+          {/* <p ref={body} className="mt-4 max-w-md 2xl:max-w-2xl text-body-2 2xl:text-4xl text-accent-100 translate-y-10 opacity-0">
             I am currently not available for freelance work. I am accepting new projects starting from February 2022.
-          </p>
+          </p> */}
           <form
             name="contact"
             action="/contact"
@@ -133,7 +133,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>hello@huyng.xyz</span>
+                <span>aobo443@gmail.com</span>
                 <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
               </a>
              
@@ -142,7 +142,7 @@ export default function Contact() {
           <div className="space-y-3 ">
             <h4 className="text-body-1 2xl:text-4xl font-semibold">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
-              <a
+              {/* <a
                 href="https://bento.me/huyng"
                 className="group flex items-center space-x-2"
                 target="_blank"
@@ -153,9 +153,9 @@ export default function Contact() {
                   <span>Bento</span>
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
-              </a>
+              </a> */}
               <a
-                href="https://github.com/huyngxyz"
+                href="https://github.com/anie308"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -167,7 +167,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.linkedin.com/in/huyng03/"
+                href="https://www.linkedin.com/in/aniebietobo/"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -179,14 +179,14 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.youtube.com/channel/UCBOAB9RV647G93GxLhEXleA"
+                href="https://x.com/jurstadev"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
               >
-                <Icon icon="mdi:youtube" color="#666" />
+                <Icon icon="mdi:twitter" color="#666" />
                 <div className="relative">
-                  <span>YouTube</span>
+                  <span>Twitter</span>
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
@@ -196,7 +196,7 @@ export default function Contact() {
             <h4 className="text-body-1 font-semibold 2xl:text-4xl">Location</h4>
             <div className="space-y-2 text-body-2 2xl:text-3xl">
               <p>
-                Melbourne, Australia <br></br>
+                Uyo, Nigeria <br></br>
                 {time}
               </p>
             </div>

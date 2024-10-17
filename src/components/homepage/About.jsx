@@ -57,22 +57,22 @@ export default function About() {
               A brief intro, who am I?
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-              I am an independent frontend developer, UI/UX designer and creator based in
-              Melbourne, Australia.
+              I am an Fullstack Developer based in
+              Lagos, Nigeria.
               <br></br>
               <br></br>I specialize in crafting elevated, intuitive, and
-              minimalistic designs for startups and small businesses to help
+              minimalistic designs for companies and projects to help
               them stand out in the digital landscape with a powerful impact. 😎
               <br></br>
               <br></br>
-              When I am not developing or designing, I enjoy creating videos
-              that talk about frontend development, productivity and design on{" "}
-              <a
+              When I am not developing, I enjoy watching movies, listening to podcasts and singing.
+              
+              {/* <a
                 className="underline duration-300 ease-in-out hover:text-secondary-700"
                 href="https://www.youtube.com/channel/UCBOAB9RV647G93GxLhEXleA"
               >
                 YouTube 📸
-              </a>
+              </a> */}
             </p>
           </div>
         </div>

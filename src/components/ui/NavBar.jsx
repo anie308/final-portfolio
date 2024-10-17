@@ -6,7 +6,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 
 export default function NavBar({ sectionRefs }) {
   const navBar = useRef(null);
-  const logo = useRef(null);
+  // const logo = useRef(null);
   const cta = useRef(null);
   const tl = gsap.timeline();
   gsap.registerPlugin(ScrollTrigger);
@@ -55,8 +55,9 @@ export default function NavBar({ sectionRefs }) {
       className="fixed top-0 z-50 flex w-full -translate-y-full items-center justify-between bg-secondary-100 px-5 py-3"
     >
       {/* logo */}
-      <a href="#hero" aria-label="Logo" className="z-50">
-        <svg
+      <a href="#hero" aria-label="Logo" className="z-50 text-[40px] font-[600]">
+        jurstadev
+        {/* <svg
           ref={logo}
           width="80"
           height="45"
@@ -70,7 +71,7 @@ export default function NavBar({ sectionRefs }) {
             clipRule="evenodd"
             d="M113.5 1.5H111V6.50001H113.5C112.119 6.50001 111 7.61931 111 9.00001V11.5H116V9.00001C116 10.3807 117.119 11.5 118.5 11.5H121V6.50001H118.5C119.881 6.50001 121 5.38072 121 4V1.5H116V4C116 2.61929 114.881 1.5 113.5 1.5ZM116 6.50001H113.5C114.881 6.50001 116 7.61931 116 9.00001V6.50001ZM116 6.50001V4C116 5.38072 117.119 6.50001 118.5 6.50001H116Z"
           />
-        </svg>
+        </svg> */}
       </a>
       <nav className=" space-x-7 font-grotesk text-body-3 sm:block">
         <a href="#about" className="group relative hidden md:inline-block">

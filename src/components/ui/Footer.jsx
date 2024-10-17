@@ -8,11 +8,11 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row md:w-[62.5vw] lg:w-[57.5vw] justify-between">
         <div className="flex space-x-1" >
           <span>&copy;</span>
-          <span>2023</span>
-          <span className="font-extrabold uppercase 2xl:text-body-1">Huy Nguyen</span>
+          <span>2024</span>
+          <span className="font-extrabold uppercase 2xl:text-body-1">Aniebiet Obo </span>
         </div>
         <div>
-          <span className=" text-body-4 2xl:text-body-1">Site designed and coded with ❤️‍🔥</span>
+          <span className=" text-body-4 2xl:text-body-1">Inspired by Huy Nguyen ❤️‍🔥</span>
         </div>
       </div>
       <button onClick={toTop} className="col-span-2 flex items-center space-x-2 w-fit group 2xl:text-body-1">

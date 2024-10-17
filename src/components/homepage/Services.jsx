@@ -5,20 +5,19 @@ export default function Services() {
   const expertiseItems = [
     "Web Development",
     "Web Design",
-    "Wireframing",
-    "UI/UX Design",
-    "Branding",
+    // "Wireframing",
+    // "UI/UX Design",
+    // "Branding",
   ];
 
   const toolBoxItems = [
-    "JavaScript",
+    "Typescript",
     "HTML",
     "CSS",
     "Figma",
-    "Webflow",
-    "GSAP",
     "TailwindCSS",
     "ReactJS",
+    "ExpressJS",
   ];
 
   return (
@@ -27,7 +26,7 @@ export default function Services() {
       <div className="space-y-14">
         <ServiceUi
           title="my expertises."
-          description="I focus on all things design and web related. With each of my
+          description="I focus on all things web and mobile related. With each of my
           services, my goal is to deliver an impactful and elevating
           digital experience for everyone."
           items={expertiseItems}
