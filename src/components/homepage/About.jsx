@@ -38,7 +38,7 @@ export default function About() {
       <Heading title="about me" />
       <div className="mt-10 flex flex-col items-start gap-8 md:flex-row lg:gap-10 ">
         <div className="top-28 overflow-hidden rounded-md md:sticky md:w-1/2">
-          <img
+          {/* <img
             ref={profile}
             loading="lazy"
             className="aspect-square h-auto w-full rounded-md object-cover object-center md:aspect-auto"
@@ -46,7 +46,7 @@ export default function About() {
             width="600"
             height="800"
             alt="portrait image of Huy standing in front of a tree and foliage"
-          />
+          /> */}
         </div>
         <div className="top-20 sm:sticky md:top-28 lg:top-32 md:w-1/2">
           <div className="w-full space-y-4 2xl:space-y-10">
