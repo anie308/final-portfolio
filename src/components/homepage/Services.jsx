@@ -17,6 +17,7 @@ export default function Services() {
     "Figma",
     "TailwindCSS",
     "ReactJS",
+    "React Native",
     "ExpressJS",
   ];
 
