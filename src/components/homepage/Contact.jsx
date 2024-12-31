@@ -48,9 +48,9 @@ export default function Contact() {
           <h3 ref={heading} className="max-w-lg 2xl:max-w-3xl text-heading-3 2xl:text-7xl font-semibold leading-tight translate-y-10 opacity-0">
             Have an awesome idea? Let&apos;s bring it to life.
           </h3>
-          <p ref={body} className="mt-4 max-w-md 2xl:max-w-2xl text-body-2 2xl:text-4xl text-accent-100 translate-y-10 opacity-0">
+          {/* <p ref={body} className="mt-4 max-w-md 2xl:max-w-2xl text-body-2 2xl:text-4xl text-accent-100 translate-y-10 opacity-0">
             I am currently not available for freelance work. I am accepting new projects starting from February 2022.
-          </p>
+          </p> */}
           <form
             name="contact"
             action="/contact"
@@ -67,12 +67,12 @@ export default function Contact() {
                     type="text"
                     id="name"
                     name="name"
-                    className="peer block w-full appearance-none border-0 border-b border-accent-100 bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
+                    className="peer block w-full appearance-none border-0 border-b border-black bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
                     placeholder=" "
                   />
                 <label
                   htmlFor="name"
-                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-body-3 2xl:text-body-2 text-secondary-600 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-body-3 2xl:text-body-2 text-black duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75"
                 >
                   Your name
                 </label>
@@ -83,12 +83,12 @@ export default function Contact() {
                   type="text"
                   name="email"
                   id="email"
-                  className="peer block w-full appearance-none border-0 border-b border-accent-100 bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
+                  className="peer block w-full appearance-none border-0 border-b border-black bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
                   placeholder=" "
                 />
                 <label
                   htmlFor="email"
-                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-body-3 2xl:text-body-2 text-secondary-600 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-body-3 2xl:text-body-2 text-black duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75"
                 >
                   Your email
                 </label>
@@ -99,12 +99,12 @@ export default function Contact() {
                   id="message"
                   name="message"
                   rows="5"
-                  className="peer block w-full appearance-none border-0 border-b border-accent-100 bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
+                  className="peer block w-full appearance-none border-0 border-b border-black bg-transparent px-0 py-2.5 focus:outline-none focus:ring-0"
                   placeholder=" "
                 ></textarea>
                 <label
                   htmlFor="message"
-                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-body-3 2xl:text-body-2 text-secondary-600 duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75"
+                  className="absolute top-3 -z-10 origin-[0] -translate-y-6 scale-75 transform text-body-3 2xl:text-body-2 text-black duration-300 peer-placeholder-shown:translate-y-0 peer-placeholder-shown:scale-100 peer-focus:left-0 peer-focus:-translate-y-6 peer-focus:scale-75"
                 >
                   Your message
                 </label>
@@ -112,11 +112,11 @@ export default function Contact() {
             </div>
             <button
               type="submit"
-              className="button group mt-10 border duration-200 hover:border-accent-400 hover:bg-transparent"
+              className="button group mt-10 border duration-200 hover:border-black hover:bg-transparent"
             >
               <span className="relative">
-                <span className="absolute bottom-2 h-1 w-0 bg-secondary-700 opacity-90 duration-300 ease-out group-hover:w-full"></span>
-                <span className="group-hover:text-accent-400">
+                <span className="absolute bottom-2 h-1 w-0 bg-black  duration-300 ease-out group-hover:w-full"></span>
+                <span className="group-hover:text-black text-white">
                   Send Message
                 </span>
               </span>
@@ -133,7 +133,7 @@ export default function Contact() {
                 target="_blank"
                 rel="noreferrer"
               >
-                <span>hello@huyng.xyz</span>
+                <span>aobo443@gmail.com</span>
                 <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
               </a>
              
@@ -142,7 +142,7 @@ export default function Contact() {
           <div className="space-y-3 ">
             <h4 className="text-body-1 2xl:text-4xl font-semibold">My Digital Spaces</h4>
             <div className="space-y-3 text-body-2 2xl:text-3xl">
-              <a
+              {/* <a
                 href="https://bento.me/huyng"
                 className="group flex items-center space-x-2"
                 target="_blank"
@@ -153,9 +153,9 @@ export default function Contact() {
                   <span>Bento</span>
                   <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
-              </a>
+              </a> */}
               <a
-                href="https://github.com/huyngxyz"
+                href="https://github.com/anie308"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -163,11 +163,11 @@ export default function Contact() {
                 <Icon icon="mdi:github" color="#666" />
                 <div className="relative">
                   <span>Github</span>
-                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
               <a
-                href="https://www.linkedin.com/in/huyng03/"
+                href="https://www.linkedin.com/"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -175,7 +175,7 @@ export default function Contact() {
                 <Icon icon="mdi:linkedin" color="#666" />
                 <div className="relative">
                   <span>LinkedIn</span>
-                  <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+                  <span className="absolute bottom-0 left-0 h-[0.12em] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
               <a
@@ -186,8 +186,8 @@ export default function Contact() {
               >
                 <Icon icon="mdi:youtube" color="#666" />
                 <div className="relative">
-                  <span>YouTube</span>
-                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
+                  <span>Twitter(X)</span>
+                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
             </div>
@@ -196,7 +196,7 @@ export default function Contact() {
             <h4 className="text-body-1 font-semibold 2xl:text-4xl">Location</h4>
             <div className="space-y-2 text-body-2 2xl:text-3xl">
               <p>
-                Melbourne, Australia <br></br>
+                AkwaIbom, Nigreia <br></br>
                 {time}
               </p>
             </div>

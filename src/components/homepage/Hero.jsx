@@ -41,7 +41,7 @@ export default function Hero() {
         <div className="title 2xl:py-16">
           {/* Learn more about useRef */}
           <h1 ref={(el) => (titles.current[0] = el)} className="translate-y-96 overflow-visible">
-            Hey, I&apos;m Huy
+            Hey, I&apos;m Jurstadev
           </h1>
         </div>
         <div className=" title 2xl:py-16">
