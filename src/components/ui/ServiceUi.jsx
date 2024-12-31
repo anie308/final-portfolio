@@ -43,7 +43,7 @@ export default function ServiceUi({ title, description, items }) {
         <div ref={line} className="h-1 w-0 bg-accent-100 opacity-50 md:hidden"></div>
       </div>
 
-      <div ref={services}  className=" select-none leading-[2.3rem] text-secondary-500 md:leading-[2.5rem] lg:leading-[3.4rem]  translate-y-10 opacity-0">
+      <div ref={services}  className=" select-none leading-[2.3rem] space-y-[2px] text-secondary-500 md:leading-[2.5rem] lg:leading-[3.4rem]  translate-y-10 opacity-0">
         {items.map((item, index) => {
           return (
             <p key={index} className="font-general text-special 2xl:text-7xl font-extrabold ">

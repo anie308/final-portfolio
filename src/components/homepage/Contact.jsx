@@ -167,7 +167,7 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.linkedin.com/"
+                href="https://www.linkedin.com/in/aniebietobo/"
                 className="group group flex w-fit items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
@@ -179,15 +179,15 @@ export default function Contact() {
                 </div>
               </a>
               <a
-                href="https://www.youtube.com/channel/UCBOAB9RV647G93GxLhEXleA"
+                href="https://x.com/jurstadev"
                 className="group flex items-center space-x-2"
                 target="_blank"
                 rel="noreferrer"
               >
-                <Icon icon="mdi:youtube" color="#666" />
+                <Icon icon="mdi:twitter" color="#666" />
                 <div className="relative">
-                  <span>Twitter(X)</span>
-                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-black duration-300 ease-in-out group-hover:w-full"></span>
+                  <span>Twitter</span>
+                  <span className="absolute bottom-0 left-0 h-[0.10em] w-0 rounded-full bg-secondary-600 duration-300 ease-in-out group-hover:w-full"></span>
                 </div>
               </a>
             </div>
@@ -196,7 +196,7 @@ export default function Contact() {
             <h4 className="text-body-1 font-semibold 2xl:text-4xl">Location</h4>
             <div className="space-y-2 text-body-2 2xl:text-3xl">
               <p>
-                AkwaIbom, Nigreia <br></br>
+                Uyo, Nigeria <br></br>
                 {time}
               </p>
             </div>
