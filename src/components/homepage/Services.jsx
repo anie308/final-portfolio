@@ -4,6 +4,7 @@ import Heading from "../ui/Heading";
 export default function Services() {
   const expertiseItems = [
     "Web Development",
+    "App Development",
     "Web Design",
     // "Wireframing",
     // "UI/UX Design",

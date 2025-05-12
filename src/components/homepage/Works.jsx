@@ -1,5 +1,5 @@
-import ibgroup from "/src/assets/images/ib-group-desktop.webp";
-import memento from "/src/assets/images/memento-desktop.webp";
+import ibgroup from "/src/assets/images/derhex.png";
+import memento from "/src/assets/images/chainfeed.png";
 import acc from "/src/assets/images/acc-square.webp";
 import daddy from "/src/assets/images/godaddy-desktop.webp";
 import sunnyside from "/src/assets/images/sunnyside-desktop.webp";
@@ -18,26 +18,26 @@ export default function Works({ forwardedRef }) {
         {/* Project #1 */}
         <div className=" col-span-1 md:col-span-12">
           <Projects
-            link="https://musical-stroopwafel-1c2327.netlify.app/landing.html"
+            link="https://derhex.com/"
             img={ibgroup}
             alt="IBGroup vietnam website mockup"
-            name="ibgroup vietnam website"
-            type="Web Design • Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript • Figma"
+            name="Derhex"
+            type="Web Design • Frontend Development • Web3 Development"
+            year="2025"
+            tools="React • TailwindCSS • Solidity • Privy Wallets"
 
           />
         </div>
         {/* Project #2 */}
         <div className="col-span-1 pt-0 md:col-span-7 md:pt-16">
           <Projects
-            link="https://mementostudio.netlify.app/"
+            link="https://onchain-reddit.vercel.app/"
             img={memento}
             alt="memento landing page mockup"
-            name="memento studio landing page"
-            type="Frontend Development"
-            year="2023"
-            tools="HTML • TailwindCSS • JavaScript"
+            name="Onchain Reddit"
+            type="Frontend Development • Web3 Development"
+            year="2025"
+            tools="React • TailwindCSS • Solidity • Privy Wallets"
           />
         </div>
         <div className="col-span-1 pt-0 md:col-span-5 md:pt-80">

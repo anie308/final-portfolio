@@ -57,8 +57,7 @@ export default function About() {
               A brief intro, who am I?
             </h3>
             <p ref={body} className=" translate-y-10 text-body-1 2xl:text-4xl opacity-0">
-              I am an Fullstack Developer based in
-              Uyo, Nigeria.
+              I am a Fullstack Developer (Web and Mobile) 
               <br></br>
               <br></br>I specialize in crafting elevated, intuitive, and
               minimalistic designs for companies and projects to help
